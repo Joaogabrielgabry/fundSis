@@ -8,10 +8,6 @@ int main() {
     for (i = 0; i < 11; i++) {
         printf("Digite o %dº número: ", i + 1);
         scanf("%d", &numero);
-
-        if (numero % 2 == 0) {
-            pares++;
-        } else {
             impares++;
         }
     }
